@@ -209,7 +209,7 @@ jobs:
       # across jobs, not on a single tiny vm on Github Actions.
       - uses: golangci/golangci-lint-action@v6
         with:
-          args: --timeout 10m0s -v
+          args: --timeout 56m0s -v
 
       - name: cache save
         # Always save the cache, even if the job fails. The artifacts produced
